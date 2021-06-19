@@ -6,7 +6,7 @@
 /*   By: veduardo <veduardo@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/16 08:55:29 by veduardo          #+#    #+#             */
-/*   Updated: 2021/06/19 20:19:07 by veduardo         ###   ########.fr       */
+/*   Updated: 2021/06/19 20:30:12 by veduardo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,6 @@ int		ft_strchr(char *s, int c);
 size_t	ft_strlen(char *s);
 char	*ft_strjoin(char *dest, char *org, int positions);
 int		get_next_line(int fd, char **line);
+void	*ft_calloc(size_t nb, size_t size);
 
 #endif
